@@ -1,0 +1,565 @@
+* {
+  color: white;
+}
+
+button.carousel-control-prev,
+button.carousel-control-next {
+  align-items: flex-end;
+}
+
+div.carousel-caption {
+  bottom: -30px;
+}
+
+.onebitxLogo {
+  width: 250px;
+  margin-right: 30px;
+}
+
+.arrowDown {
+  width: 100px;
+}
+
+.pageSec {
+  height: 100vh;
+  width: 100%;
+  padding: 20px 40px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.pageSec.navbarMenu {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: right;
+  height: auto;
+  transition: all 200ms ease-in-out;
+}
+.pageSec.navbarMenu.bgColor {
+  background-color: black;
+}
+
+.footer {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.footer .copy {
+  color: rgb(88, 88, 88);
+  padding: 8px 16px;
+}
+
+@media (max-width: 991px) {
+  .menuItems {
+    flex-wrap: nowrap !important;
+  }
+}
+@media (max-width: 480px) {
+  .onebitxLogo {
+    min-width: 150px;
+  }
+}
+.pageSec.firstSec {
+  background-image: url("../images/home/01.jpg");
+}
+.pageSec.secondSec {
+  background-image: url("../images/home/02.jpg");
+}
+.pageSec.thirdSec {
+  background-image: url("../images/home/03.gif");
+}
+.pageSec.fourthSec {
+  background-image: url("../images/home/04.jpg");
+}
+
+.firstSec .secContent,
+.secondSec .secContent,
+.thirdSec .secContent,
+.fourthSec .secContent {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.firstSec .secContent .shortTitle,
+.secondSec .secContent .shortTitle,
+.thirdSec .secContent .shortTitle,
+.fourthSec .secContent .shortTitle {
+  max-width: 550px;
+}
+.firstSec .secContent .mediumTitle,
+.secondSec .secContent .mediumTitle,
+.thirdSec .secContent .mediumTitle,
+.fourthSec .secContent .mediumTitle {
+  max-width: 650px;
+}
+
+@media (max-width: 480px) {
+  .firstSec .secContent .h5,
+.secondSec .secContent .h5,
+.thirdSec .secContent .h5,
+.fourthSec .secContent .h5 {
+    font-size: 16px;
+  }
+  .firstSec .secContent .h1,
+.secondSec .secContent .h1,
+.thirdSec .secContent .h1,
+.fourthSec .secContent .h1 {
+    font-size: 22px;
+  }
+}
+.pageSec.fithSec {
+  background-image: url("../images/falcon9/01.jpg");
+}
+.pageSec.seventhSec {
+  background-image: url("../images/falcon9/02.jpg");
+}
+.pageSec.eighthSec.eighthSec01 {
+  background-image: url("../images/falcon9/03.jpg");
+}
+.pageSec.eighthSec.eighthSec02 {
+  background-image: url("../images/falcon9/04.jpg");
+}
+.pageSec.eighthSec.eighthSec03 {
+  background-image: url("../images/falcon9/05.jpg");
+}
+.pageSec.eighthSec.eighthSec04 {
+  background-image: url("../images/falcon9/06.jpg");
+}
+.pageSec.eighthSec.eighthSec05 {
+  background-image: url("../images/falcon9/07.jpg");
+}
+.pageSec.ninethSec {
+  background-image: url("../images/falcon9/08.jpg");
+}
+.pageSec.tenthSec.tenthSec01 {
+  background-image: url("../images/falcon9/09.jpg");
+}
+.pageSec.tenthSec.tenthSec02 {
+  background-image: url("../images/falcon9/10.jpg");
+}
+.pageSec.tenthSec.tenthSec03 {
+  background-image: url("../images/falcon9/11.jpg");
+}
+.pageSec.tenthSec.tenthSec04 {
+  background-image: url("../images/falcon9/12.jpg");
+}
+.pageSec.tenthSec.tenthSec05 {
+  background-image: url("../images/falcon9/13.jpg");
+}
+.pageSec.tenthSec.tenthSec06 {
+  background-image: url("../images/falcon9/14.jpg");
+}
+
+.fithSec .secContent {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fithSec .secContent .h1 {
+  font-size: 100px;
+}
+.fithSec .secContent .h5 {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.sixthSec {
+  background-color: black;
+}
+.sixthSec .secContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding-block: 75px;
+}
+.sixthSec .secContent .contentTexts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sixthSec .secContent .h1 {
+  font-size: 140px;
+  font-weight: 400;
+}
+.sixthSec .secContent .h5 {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.seventhSec .secContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.seventhSec .secContent .h5 {
+  max-width: 550px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.eighthSec .secContent,
+.ninethSec .secContent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.eighthSec .secContent .h1,
+.ninethSec .secContent .h1 {
+  margin-bottom: 30px;
+}
+.eighthSec .secContent .eighthSecTable,
+.ninethSec .secContent .eighthSecTable {
+  max-width: 35%;
+  line-height: 60px;
+}
+.eighthSec .secContent .eighthSecTable .tableLine,
+.ninethSec .secContent .eighthSecTable .tableLine {
+  border-bottom: 1px solid rgb(88, 88, 88);
+}
+.eighthSec .secContent .eighthSecTable .secondCol,
+.ninethSec .secContent .eighthSecTable .secondCol {
+  text-align: right;
+}
+.eighthSec .secContent .eighthSecTable .secColor,
+.ninethSec .secContent .eighthSecTable .secColor {
+  color: rgb(88, 88, 88);
+}
+.eighthSec .secContent .secParagraph,
+.eighthSec .secContent .h4,
+.ninethSec .secContent .secParagraph,
+.ninethSec .secContent .h4 {
+  max-width: 450px;
+  font-weight: 300;
+}
+
+.tenthSec::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 40px;
+  bottom: 0px;
+  background-color: black;
+  left: 0;
+}
+
+.eleventhSec {
+  height: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.eleventhSec .eleventhSecParagraph {
+  color: rgb(88, 88, 88);
+  margin-top: 40px;
+  text-align: center;
+}
+.eleventhSec .eleventhSecButtons {
+  display: flex;
+  gap: 15px;
+}
+.eleventhSec .eleventhSecButtons .button {
+  font-size: 12px;
+}
+.eleventhSec .email {
+  color: white;
+}
+
+.eleventhSec::before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 2px;
+  height: 150px;
+  background-color: white;
+}
+
+@media (max-width: 991px) {
+  .sixthSec .secContent {
+    gap: 40px;
+    padding-block: 75px;
+  }
+  .sixthSec .secContent .h1 {
+    font-size: 80px;
+    font-weight: 400;
+  }
+  .sixthSec .secContent .h5 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .seventhSec .secContent .h5 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+  }
+  .eighthSec .secContent,
+.ninethSec .secContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .eighthSec .secContent .h1,
+.ninethSec .secContent .h1 {
+    margin-bottom: 30px;
+  }
+  .eighthSec .secContent .eighthSecTable,
+.ninethSec .secContent .eighthSecTable {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .eighthSec .secContent .eighthSecTable .tableLine,
+.ninethSec .secContent .eighthSecTable .tableLine {
+    border-bottom: 1px solid rgb(88, 88, 88);
+  }
+  .eighthSec .secContent .eighthSecTable .secondCol,
+.ninethSec .secContent .eighthSecTable .secondCol {
+    text-align: right;
+  }
+  .eighthSec .secContent .eighthSecTable .secColor,
+.ninethSec .secContent .eighthSecTable .secColor {
+    color: rgb(88, 88, 88);
+  }
+  .eighthSec .secContent .secParagraph,
+.eighthSec .secContent .h4,
+.ninethSec .secContent .secParagraph,
+.ninethSec .secContent .h4 {
+    max-width: 450px;
+    font-weight: 300;
+  }
+  .carousel-caption .caption {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  .fithSec .secContent .h1 {
+    font-size: 50px;
+  }
+  .fithSec .secContent .h5 {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .sixthSec .secContent {
+    gap: 20px;
+    padding-block: 75px;
+  }
+  .sixthSec .secContent .h1 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .sixthSec .secContent .h5 {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .seventhSec .secContent .h5 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+  }
+  .eighthSec .secContent,
+.ninethSec .secContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .eighthSec .secContent .h1,
+.ninethSec .secContent .h1 {
+    margin-bottom: 30px;
+  }
+  .eighthSec .secContent .eighthSecTable,
+.ninethSec .secContent .eighthSecTable {
+    max-width: 100%;
+    font-size: 12px;
+  }
+  .eighthSec .secContent .eighthSecTable .tableLine,
+.ninethSec .secContent .eighthSecTable .tableLine {
+    border-bottom: 1px solid rgb(88, 88, 88);
+  }
+  .eighthSec .secContent .eighthSecTable .secondCol,
+.ninethSec .secContent .eighthSecTable .secondCol {
+    text-align: right;
+  }
+  .eighthSec .secContent .eighthSecTable .secColor,
+.ninethSec .secContent .eighthSecTable .secColor {
+    color: rgb(88, 88, 88);
+  }
+  .eighthSec .secContent .secParagraph,
+.eighthSec .secContent .h4,
+.ninethSec .secContent .secParagraph,
+.ninethSec .secContent .h4 {
+    max-width: 450px;
+    font-weight: 300;
+  }
+}
+.pageSec.twelfthSec {
+  background-image: url("../images/humanFlight/01.jpg");
+}
+.pageSec.thirteenthSec {
+  background-image: url("../images/humanFlight/02.jpg");
+}
+.pageSec.fourteenthSec {
+  background-image: url("../images/humanFlight/03.jpg");
+}
+.pageSec.fifteenthSec {
+  background-image: url("../images/humanFlight/04.jpg");
+}
+.pageSec.sixteenthSec {
+  background-image: url("../images/humanFlight/05.jpg");
+}
+
+.twelfthSec .secContent {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.twelfthSec .secContent .h1 {
+  font-size: 100px;
+}
+.twelfthSec .secContent .h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.thirteenthSec .secContent,
+.fifteenthSec .secContent {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.thirteenthSec .teenthSecTexts,
+.fifteenthSec .teenthSecTexts {
+  align-self: flex-end;
+  max-width: 500px;
+}
+.thirteenthSec .teenthSecTexts .h1,
+.fifteenthSec .teenthSecTexts .h1 {
+  font-size: 80px;
+}
+.thirteenthSec .teenthSecTexts .h5,
+.fifteenthSec .teenthSecTexts .h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.thirteenthSec .teenthSecTexts .h3,
+.fifteenthSec .teenthSecTexts .h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+.thirteenthSec .thirteenthSecTitle,
+.fifteenthSec .thirteenthSecTitle {
+  display: flex;
+  justify-content: center;
+}
+.thirteenthSec .thirteenthSecTitle .h4,
+.fifteenthSec .thirteenthSecTitle .h4 {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  max-width: 600px;
+  line-height: 30px;
+  margin-top: 40px;
+}
+
+.fourteenthSec .secContent,
+.sixteenthSec .secContent {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.fourteenthSec .teenthSecTexts,
+.sixteenthSec .teenthSecTexts {
+  align-self: flex-start;
+  max-width: 500px;
+}
+.fourteenthSec .teenthSecTexts .h1,
+.sixteenthSec .teenthSecTexts .h1 {
+  font-size: 48px;
+}
+.fourteenthSec .teenthSecTexts .h5,
+.sixteenthSec .teenthSecTexts .h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.fourteenthSec .teenthSecTexts .h3,
+.sixteenthSec .teenthSecTexts .h3 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .twelfthSec {
+    background-size: auto;
+  }
+  .twelfthSec .secContent .h1 {
+    font-size: 80px;
+  }
+  .thirteenthSec .secContent,
+.fifteenthSec .secContent {
+    height: 75%;
+  }
+  .thirteenthSec .teenthSecTexts .h1,
+.fifteenthSec .teenthSecTexts .h1 {
+    font-size: 50px;
+  }
+  .thirteenthSec .teenthSecTexts .h5,
+.fifteenthSec .teenthSecTexts .h5 {
+    font-size: 18px;
+  }
+  .thirteenthSec .teenthSecTexts .h3,
+.fifteenthSec .teenthSecTexts .h3 {
+    font-size: 14px;
+  }
+  .thirteenthSec .thirteenthSecTitle .h4,
+.fifteenthSec .thirteenthSecTitle .h4 {
+    font-size: 12px;
+  }
+  .fourteenthSec .secContent,
+.sixteenthSec .secContent {
+    height: 75%;
+  }
+  .fourteenthSec .teenthSecTexts .h1,
+.sixteenthSec .teenthSecTexts .h1 {
+    font-size: 30px;
+  }
+  .fourteenthSec .teenthSecTexts .h5,
+.sixteenthSec .teenthSecTexts .h5 {
+    font-size: 18px;
+  }
+  .fourteenthSec .teenthSecTexts .h3,
+.sixteenthSec .teenthSecTexts .h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .twelfthSec {
+    background-size: auto;
+  }
+  .twelfthSec .secContent .h1 {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

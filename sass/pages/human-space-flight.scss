@@ -1,0 +1,171 @@
+.pageSec {
+  &.twelfthSec {
+    background-image: url("../images/humanFlight/01.jpg");
+  }
+  &.thirteenthSec {
+    background-image: url("../images/humanFlight/02.jpg");
+  }
+  &.fourteenthSec {
+    background-image: url("../images/humanFlight/03.jpg");
+  }
+  &.fifteenthSec {
+    background-image: url("../images/humanFlight/04.jpg");
+  }
+  &.sixteenthSec {
+    background-image: url("../images/humanFlight/05.jpg");
+  }
+}
+
+.twelfthSec {
+  .secContent {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .h1 {
+      font-size: 100px;
+    }
+
+    .h5 {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+}
+
+.thirteenthSec,
+.fifteenthSec {
+  .secContent {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .teenthSecTexts {
+    align-self: flex-end;
+    max-width: 500px;
+
+    .h1 {
+      font-size: 80px;
+    }
+
+    .h5 {
+      font-size: 20px;
+      font-weight: 300;
+    }
+    .h3 {
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+
+  .thirteenthSecTitle {
+    display: flex;
+    justify-content: center;
+
+    .h4 {
+      font-size: 16px;
+      font-weight: 300;
+      text-align: center;
+      max-width: 600px;
+      line-height: 30px;
+      margin-top: 40px;
+    }
+  }
+}
+
+.fourteenthSec,
+.sixteenthSec {
+  .secContent {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .teenthSecTexts {
+    align-self: flex-start;
+    max-width: 500px;
+
+    .h1 {
+      font-size: 48px;
+    }
+
+    .h5 {
+      font-size: 20px;
+      font-weight: 300;
+    }
+    .h3 {
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .twelfthSec {
+    background-size: auto;
+    .secContent {
+      .h1 {
+        font-size: 80px;
+      }
+    }
+  }
+
+  .thirteenthSec,
+  .fifteenthSec {
+    .secContent {
+      height: 75%;
+    }
+    .teenthSecTexts {
+      .h1 {
+        font-size: 50px;
+      }
+
+      .h5 {
+        font-size: 18px;
+      }
+      .h3 {
+        font-size: 14px;
+      }
+    }
+
+    .thirteenthSecTitle {
+      .h4 {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .fourteenthSec,
+  .sixteenthSec {
+    .secContent {
+      height: 75%;
+    }
+    .teenthSecTexts {
+      .h1 {
+        font-size: 30px;
+      }
+
+      .h5 {
+        font-size: 18px;
+      }
+      .h3 {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .twelfthSec {
+    background-size: auto;
+    .secContent {
+      .h1 {
+        font-size: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,348 @@
+.pageSec {
+  &.fithSec {
+    background-image: url("../images/falcon9/01.jpg");
+  }
+  &.seventhSec {
+    background-image: url("../images/falcon9/02.jpg");
+  }
+  &.eighthSec.eighthSec01 {
+    background-image: url("../images/falcon9/03.jpg");
+  }
+  &.eighthSec.eighthSec02 {
+    background-image: url("../images/falcon9/04.jpg");
+  }
+  &.eighthSec.eighthSec03 {
+    background-image: url("../images/falcon9/05.jpg");
+  }
+  &.eighthSec.eighthSec04 {
+    background-image: url("../images/falcon9/06.jpg");
+  }
+  &.eighthSec.eighthSec05 {
+    background-image: url("../images/falcon9/07.jpg");
+  }
+  &.ninethSec {
+    background-image: url("../images/falcon9/08.jpg");
+  }
+  &.tenthSec.tenthSec01 {
+    background-image: url("../images/falcon9/09.jpg");
+  }
+  &.tenthSec.tenthSec02 {
+    background-image: url("../images/falcon9/10.jpg");
+  }
+  &.tenthSec.tenthSec03 {
+    background-image: url("../images/falcon9/11.jpg");
+  }
+  &.tenthSec.tenthSec04 {
+    background-image: url("../images/falcon9/12.jpg");
+  }
+  &.tenthSec.tenthSec05 {
+    background-image: url("../images/falcon9/13.jpg");
+  }
+  &.tenthSec.tenthSec06 {
+    background-image: url("../images/falcon9/14.jpg");
+  }
+}
+
+.fithSec {
+  .secContent {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .h1 {
+      font-size: 100px;
+    }
+
+    .h5 {
+      font-size: 20px;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+}
+
+.sixthSec {
+  background-color: black;
+
+  .secContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-block: 75px;
+
+    .contentTexts {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .h1 {
+      font-size: 140px;
+      font-weight: 400;
+    }
+
+    .h5 {
+      font-size: 22px;
+      font-weight: 300;
+      text-align: center;
+    }
+  }
+}
+
+.seventhSec {
+  .secContent {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .h5 {
+      max-width: 550px;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 40px;
+    }
+  }
+}
+
+.eighthSec,
+.ninethSec {
+  .secContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .h1 {
+      margin-bottom: 30px;
+    }
+
+    .eighthSecTable {
+      max-width: 35%;
+      line-height: 60px;
+
+      .tableLine {
+        border-bottom: 1px solid rgb(88, 88, 88);
+      }
+
+      .secondCol {
+        text-align: right;
+      }
+
+      .secColor {
+        color: rgb(88, 88, 88);
+      }
+    }
+
+    .secParagraph,
+    .h4 {
+      max-width: 450px;
+      font-weight: 300;
+    }
+  }
+}
+
+.tenthSec::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 40px;
+  bottom: 0px;
+  background-color: black;
+  left: 0;
+}
+
+.eleventhSec {
+  height: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+
+  .eleventhSecParagraph {
+    color: rgb(88, 88, 88);
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .eleventhSecButtons {
+    display: flex;
+    gap: 15px;
+    .button {
+      font-size: 12px;
+    }
+  }
+
+  .email {
+    color: white;
+  }
+}
+
+.eleventhSec::before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 2px;
+  height: 150px;
+  background-color: white;
+}
+
+@media (max-width: 991px) {
+  .sixthSec {
+    .secContent {
+      gap: 40px;
+      padding-block: 75px;
+
+      .h1 {
+        font-size: 80px;
+        font-weight: 400;
+      }
+
+      .h5 {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .seventhSec {
+    .secContent {
+      .h5 {
+        font-size: 20px;
+        font-weight: 300;
+        text-align: justify;
+      }
+    }
+  }
+
+  .eighthSec,
+  .ninethSec {
+    .secContent {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .h1 {
+        margin-bottom: 30px;
+      }
+
+      .eighthSecTable {
+        max-width: 100%;
+        font-size: 12px;
+        // line-height: 60px;
+
+        .tableLine {
+          border-bottom: 1px solid rgb(88, 88, 88);
+        }
+
+        .secondCol {
+          text-align: right;
+        }
+
+        .secColor {
+          color: rgb(88, 88, 88);
+        }
+      }
+
+      .secParagraph,
+      .h4 {
+        max-width: 450px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .carousel-caption {
+    .caption {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .fithSec {
+    .secContent {
+      .h1 {
+        font-size: 50px;
+      }
+
+      .h5 {
+        font-size: 14px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .sixthSec {
+    .secContent {
+      gap: 20px;
+      padding-block: 75px;
+
+      .h1 {
+        font-size: 40px;
+        font-weight: 400;
+      }
+
+      .h5 {
+        font-size: 12px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .seventhSec {
+    .secContent {
+      .h5 {
+        font-size: 20px;
+        font-weight: 300;
+        text-align: justify;
+      }
+    }
+  }
+
+  .eighthSec,
+  .ninethSec {
+    .secContent {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .h1 {
+        margin-bottom: 30px;
+      }
+
+      .eighthSecTable {
+        max-width: 100%;
+        font-size: 12px;
+        // line-height: 60px;
+
+        .tableLine {
+          border-bottom: 1px solid rgb(88, 88, 88);
+        }
+
+        .secondCol {
+          text-align: right;
+        }
+
+        .secColor {
+          color: rgb(88, 88, 88);
+        }
+      }
+
+      .secParagraph,
+      .h4 {
+        max-width: 450px;
+        font-weight: 300;
+      }
+    }
+  }
+}

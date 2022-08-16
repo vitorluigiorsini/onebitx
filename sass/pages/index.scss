@@ -1,0 +1,50 @@
+.pageSec {
+  &.firstSec {
+    background-image: url("../images/home/01.jpg");
+  }
+  &.secondSec {
+    background-image: url("../images/home/02.jpg");
+  }
+  &.thirdSec {
+    background-image: url("../images/home/03.gif");
+  }
+  &.fourthSec {
+    background-image: url("../images/home/04.jpg");
+  }
+}
+
+.firstSec,
+.secondSec,
+.thirdSec,
+.fourthSec {
+  .secContent {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    .shortTitle {
+      max-width: 550px;
+    }
+
+    .mediumTitle {
+      max-width: 650px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .firstSec,
+  .secondSec,
+  .thirdSec,
+  .fourthSec {
+    .secContent {
+      .h5 {
+        font-size: 16px;
+      }
+      .h1 {
+        font-size: 22px;
+      }
+    }
+  }
+}
