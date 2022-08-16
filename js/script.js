@@ -9,7 +9,7 @@ document.addEventListener("scroll", (event) => {
       navBar.style.transform = "translateY(-105px)";
       scrollPosition1 = scrollPosition2;
     } else {
-      navBar.style.transform = "translateY(0)";
+      navBar.style.transform = "initial";
       scrollPosition1 = scrollPosition2;
     }
 
