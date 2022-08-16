@@ -3,19 +3,21 @@ const navBar = document.querySelector(".navbarMenu");
 let scrollPosition1 = scrollY;
 
 document.addEventListener("scroll", (event) => {
-  const scrollPosition2 = scrollY;
-  if (scrollPosition2 > scrollPosition1) {
-    navBar.style.transform = "translateY(-105px)";
-    scrollPosition1 = scrollPosition2;
-  } else {
-    navBar.style.transform = "translateY(0)";
-    scrollPosition1 = scrollPosition2;
-  }
+  if (scrollY > 100) {
+    const scrollPosition2 = scrollY;
+    if (scrollPosition2 > scrollPosition1) {
+      navBar.style.transform = "translateY(-105px)";
+      scrollPosition1 = scrollPosition2;
+    } else {
+      navBar.style.transform = "translateY(0)";
+      scrollPosition1 = scrollPosition2;
+    }
 
-  if (scrollY > 600) {
-    navBar.classList.add("bgColor");
-  } else {
-    navBar.classList.remove("bgColor");
+    if (scrollY > 600) {
+      navBar.classList.add("bgColor");
+    } else {
+      navBar.classList.remove("bgColor");
+    }
   }
 });
 

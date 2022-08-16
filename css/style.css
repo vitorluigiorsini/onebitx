@@ -33,6 +33,7 @@ div.carousel-caption {
   font-size: 12px;
   text-align: right;
   height: auto;
+  z-index: 100;
   transition: all 200ms ease-in-out;
 }
 .pageSec.navbarMenu.bgColor {
@@ -387,7 +388,7 @@ div.carousel-caption {
   .eighthSec .secContent .eighthSecTable,
 .ninethSec .secContent .eighthSecTable {
     max-width: 100%;
-    font-size: 12px;
+    font-size: 10px;
   }
   .eighthSec .secContent .eighthSecTable .tableLine,
 .ninethSec .secContent .eighthSecTable .tableLine {
