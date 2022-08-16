@@ -63,6 +63,9 @@ div.carousel-caption {
   .onebitxLogo {
     min-width: 150px;
   }
+  .pageSec {
+    padding: 20px 5px;
+  }
 }
 .pageSec.firstSec {
   background-image: url("../images/home/01.jpg");
