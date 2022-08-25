@@ -6,17 +6,17 @@ document.addEventListener("scroll", (event) => {
   if (scrollY > 100) {
     const scrollPosition2 = scrollY;
     if (scrollPosition2 > scrollPosition1) {
-      navBar.style.transform = "translateY(-105px)";
+      navBar.classList.add("is-hidden");
+      navBar.classList.remove("has-bgColor");
       scrollPosition1 = scrollPosition2;
     } else {
-      navBar.style.transform = "initial";
+      if (scrollY > 600) {
+        navBar.classList.add("has-bgColor");
+      } else {
+        navBar.classList.remove("has-bgColor");
+      }
+      navBar.classList.remove("is-hidden");
       scrollPosition1 = scrollPosition2;
-    }
-
-    if (scrollY > 600) {
-      navBar.classList.add("bgColor");
-    } else {
-      navBar.classList.remove("bgColor");
     }
   }
 });

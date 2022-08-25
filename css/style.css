@@ -34,10 +34,34 @@ div.carousel-caption {
   text-align: right;
   height: auto;
   z-index: 100;
-  transition: all 200ms ease-in-out;
 }
-.pageSec.navbarMenu.bgColor {
-  background-color: black;
+.pageSec.navbarMenu .bgColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+  background-color: #000;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+  -webkit-transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0.15s;
+  transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0.15s;
+}
+.pageSec.navbarMenu .navbar {
+  -webkit-transition: opacity 0.2s linear 0.1s;
+  transition: opacity 0.2s linear 0.1s;
+}
+.pageSec.navbarMenu.navbarMenu.is-hidden .navbar {
+  opacity: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.pageSec.navbarMenu.navbarMenu.has-bgColor .bgColor {
+  -webkit-transform: none;
+  transform: none;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
 }
 
 .footer {
